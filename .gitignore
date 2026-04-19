@@ -44,3 +44,8 @@ next-env.d.ts
 # agent tooling
 .claude/
 .superpowers/
+
+# firebase emulator
+firestore-debug.log
+firebase-debug.log
+.firebase/
