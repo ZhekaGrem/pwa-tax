@@ -3,6 +3,7 @@ import { useAppealStore } from '@/store/useAppealStore'
 import { StepProperty } from '@/components/wizard/StepProperty'
 import { StepAssessment } from '@/components/wizard/StepAssessment'
 import { StepComps } from '@/components/wizard/StepComps'
+import { StepReview } from '@/components/wizard/StepReview'
 
 export default function NewAppealPage() {
   const step = useAppealStore((s) => s.step)
@@ -12,7 +13,7 @@ export default function NewAppealPage() {
       {step === 0 && <StepProperty />}
       {step === 1 && <StepAssessment />}
       {step === 2 && <StepComps />}
-      {step === 3 && <div>Step 4 coming next task</div>}
+      {step === 3 && <StepReview />}
     </div>
   )
 }
