@@ -21,7 +21,15 @@ export default defineConfig({
         },
       },
       {
-        resolve: { alias },
+        resolve: {
+          alias: {
+            ...alias,
+            // `server-only` throws at import time outside an RSC build; stub
+            // it out in the node test project so pdf.ts / admin.ts are
+            // importable from vitest.
+            'server-only': path.resolve(__dirname, 'vitest.server-only-stub.ts'),
+          },
+        },
         test: {
           name: 'node',
           environment: 'node',
