@@ -1,10 +1,13 @@
 import { defineConfig } from 'vitest/config'
 import path from 'node:path'
 
+const alias = { '@': path.resolve(__dirname, 'src') }
+
 export default defineConfig({
   test: {
     projects: [
       {
+        resolve: { alias },
         test: {
           name: 'dom',
           environment: 'jsdom',
@@ -18,6 +21,7 @@ export default defineConfig({
         },
       },
       {
+        resolve: { alias },
         test: {
           name: 'node',
           environment: 'node',
