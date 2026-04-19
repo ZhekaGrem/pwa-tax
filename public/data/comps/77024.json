@@ -1,0 +1,72 @@
+[
+  {
+    "parcelId": "0890330000041",
+    "address": "11203 Memorial Dr, Houston, TX 77024",
+    "zip": "77024",
+    "assessedValue": 471000,
+    "sqft": 2200,
+    "yearBuilt": 2007,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+  {
+    "parcelId": "0890330000042",
+    "address": "11309 Memorial Dr, Houston, TX 77024",
+    "zip": "77024",
+    "assessedValue": 494000,
+    "sqft": 2280,
+    "yearBuilt": 2012,
+    "bedrooms": 4,
+    "bathrooms": 3.5
+  },
+  {
+    "parcelId": "0890330000043",
+    "address": "10504 Gaywood Dr, Houston, TX 77024",
+    "zip": "77024",
+    "assessedValue": 383000,
+    "sqft": 1820,
+    "yearBuilt": 1994,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "0890330000044",
+    "address": "10608 Gaywood Dr, Houston, TX 77024",
+    "zip": "77024",
+    "assessedValue": 418000,
+    "sqft": 1970,
+    "yearBuilt": 2001,
+    "bedrooms": 3,
+    "bathrooms": 2.5
+  },
+  {
+    "parcelId": "0890330000045",
+    "address": "9011 Katy Freeway Svc Rd, Houston, TX 77024",
+    "zip": "77024",
+    "assessedValue": 356000,
+    "sqft": 1690,
+    "yearBuilt": 1988,
+    "bedrooms": 2,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "0890330000046",
+    "address": "9119 Bunker Hill Rd, Houston, TX 77024",
+    "zip": "77024",
+    "assessedValue": 440000,
+    "sqft": 2080,
+    "yearBuilt": 2005,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+  {
+    "parcelId": "0890330000047",
+    "address": "9225 Bunker Hill Rd, Houston, TX 77024",
+    "zip": "77024",
+    "assessedValue": 402000,
+    "sqft": 1910,
+    "yearBuilt": 1999,
+    "bedrooms": 3,
+    "bathrooms": 2.5
+  }
+]

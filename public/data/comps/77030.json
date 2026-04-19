@@ -1,0 +1,72 @@
+[
+  {
+    "parcelId": "1010440000051",
+    "address": "6401 Fannin St, Houston, TX 77030",
+    "zip": "77030",
+    "assessedValue": 298000,
+    "sqft": 1580,
+    "yearBuilt": 1987,
+    "bedrooms": 2,
+    "bathrooms": 1.5
+  },
+  {
+    "parcelId": "1010440000052",
+    "address": "6507 Fannin St, Houston, TX 77030",
+    "zip": "77030",
+    "assessedValue": 331000,
+    "sqft": 1710,
+    "yearBuilt": 1992,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "1010440000053",
+    "address": "7002 Almeda Rd, Houston, TX 77030",
+    "zip": "77030",
+    "assessedValue": 362000,
+    "sqft": 1830,
+    "yearBuilt": 1997,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "1010440000054",
+    "address": "7108 Almeda Rd, Houston, TX 77030",
+    "zip": "77030",
+    "assessedValue": 389000,
+    "sqft": 1940,
+    "yearBuilt": 2002,
+    "bedrooms": 3,
+    "bathrooms": 2.5
+  },
+  {
+    "parcelId": "1010440000055",
+    "address": "2204 Holcombe Blvd, Houston, TX 77030",
+    "zip": "77030",
+    "assessedValue": 415000,
+    "sqft": 2040,
+    "yearBuilt": 2007,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+  {
+    "parcelId": "1010440000056",
+    "address": "2310 Holcombe Blvd, Houston, TX 77030",
+    "zip": "77030",
+    "assessedValue": 273000,
+    "sqft": 1520,
+    "yearBuilt": 1985,
+    "bedrooms": 2,
+    "bathrooms": 1.5
+  },
+  {
+    "parcelId": "1010440000057",
+    "address": "2408 Cambridge St, Houston, TX 77030",
+    "zip": "77030",
+    "assessedValue": 347000,
+    "sqft": 1770,
+    "yearBuilt": 1995,
+    "bedrooms": 3,
+    "bathrooms": 2
+  }
+]

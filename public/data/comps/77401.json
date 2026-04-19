@@ -1,0 +1,72 @@
+[
+  {
+    "parcelId": "1340660000071",
+    "address": "4501 Bellaire Blvd, Bellaire, TX 77401",
+    "zip": "77401",
+    "assessedValue": 381000,
+    "sqft": 1830,
+    "yearBuilt": 1998,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "1340660000072",
+    "address": "4607 Bellaire Blvd, Bellaire, TX 77401",
+    "zip": "77401",
+    "assessedValue": 409000,
+    "sqft": 1950,
+    "yearBuilt": 2003,
+    "bedrooms": 3,
+    "bathrooms": 2.5
+  },
+  {
+    "parcelId": "1340660000073",
+    "address": "5002 Maple St, Bellaire, TX 77401",
+    "zip": "77401",
+    "assessedValue": 357000,
+    "sqft": 1750,
+    "yearBuilt": 1994,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "1340660000074",
+    "address": "5108 Maple St, Bellaire, TX 77401",
+    "zip": "77401",
+    "assessedValue": 435000,
+    "sqft": 2070,
+    "yearBuilt": 2008,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+  {
+    "parcelId": "1340660000075",
+    "address": "4811 Cedar St, Bellaire, TX 77401",
+    "zip": "77401",
+    "assessedValue": 478000,
+    "sqft": 2220,
+    "yearBuilt": 2013,
+    "bedrooms": 4,
+    "bathrooms": 3.5
+  },
+  {
+    "parcelId": "1340660000076",
+    "address": "4915 Cedar St, Bellaire, TX 77401",
+    "zip": "77401",
+    "assessedValue": 289000,
+    "sqft": 1560,
+    "yearBuilt": 1989,
+    "bedrooms": 2,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "1340660000077",
+    "address": "5201 Newcastle St, Bellaire, TX 77401",
+    "zip": "77401",
+    "assessedValue": 393000,
+    "sqft": 1900,
+    "yearBuilt": 2000,
+    "bedrooms": 3,
+    "bathrooms": 2.5
+  }
+]

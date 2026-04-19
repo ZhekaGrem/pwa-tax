@@ -1,0 +1,72 @@
+[
+  {
+    "parcelId": "0670550000061",
+    "address": "2401 Bissonnet St, Houston, TX 77098",
+    "zip": "77098",
+    "assessedValue": 372000,
+    "sqft": 1820,
+    "yearBuilt": 1999,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "0670550000062",
+    "address": "2507 Bissonnet St, Houston, TX 77098",
+    "zip": "77098",
+    "assessedValue": 405000,
+    "sqft": 1960,
+    "yearBuilt": 2004,
+    "bedrooms": 3,
+    "bathrooms": 2.5
+  },
+  {
+    "parcelId": "0670550000063",
+    "address": "2611 Kirby Dr, Houston, TX 77098",
+    "zip": "77098",
+    "assessedValue": 438000,
+    "sqft": 2070,
+    "yearBuilt": 2008,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+  {
+    "parcelId": "0670550000064",
+    "address": "2715 Kirby Dr, Houston, TX 77098",
+    "zip": "77098",
+    "assessedValue": 464000,
+    "sqft": 2180,
+    "yearBuilt": 2013,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+  {
+    "parcelId": "0670550000065",
+    "address": "1908 Norfolk St, Houston, TX 77098",
+    "zip": "77098",
+    "assessedValue": 352000,
+    "sqft": 1740,
+    "yearBuilt": 1996,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "0670550000066",
+    "address": "2014 Norfolk St, Houston, TX 77098",
+    "zip": "77098",
+    "assessedValue": 391000,
+    "sqft": 1890,
+    "yearBuilt": 2001,
+    "bedrooms": 3,
+    "bathrooms": 2.5
+  },
+  {
+    "parcelId": "0670550000067",
+    "address": "2120 Sunset Blvd, Houston, TX 77098",
+    "zip": "77098",
+    "assessedValue": 420000,
+    "sqft": 2030,
+    "yearBuilt": 2006,
+    "bedrooms": 4,
+    "bathrooms": 3
+  }
+]

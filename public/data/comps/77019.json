@@ -1,0 +1,72 @@
+[
+  {
+    "parcelId": "0560220000031",
+    "address": "3101 Briar Hollow Ln, Houston, TX 77019",
+    "zip": "77019",
+    "assessedValue": 462000,
+    "sqft": 2150,
+    "yearBuilt": 2006,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+  {
+    "parcelId": "0560220000032",
+    "address": "3105 Briar Hollow Ln, Houston, TX 77019",
+    "zip": "77019",
+    "assessedValue": 488000,
+    "sqft": 2260,
+    "yearBuilt": 2011,
+    "bedrooms": 4,
+    "bathrooms": 3.5
+  },
+  {
+    "parcelId": "0560220000033",
+    "address": "2704 Inwood Dr, Houston, TX 77019",
+    "zip": "77019",
+    "assessedValue": 395000,
+    "sqft": 1880,
+    "yearBuilt": 1998,
+    "bedrooms": 3,
+    "bathrooms": 2.5
+  },
+  {
+    "parcelId": "0560220000034",
+    "address": "2810 Inwood Dr, Houston, TX 77019",
+    "zip": "77019",
+    "assessedValue": 428000,
+    "sqft": 2010,
+    "yearBuilt": 2003,
+    "bedrooms": 3,
+    "bathrooms": 2.5
+  },
+  {
+    "parcelId": "0560220000035",
+    "address": "1912 West Gray St, Houston, TX 77019",
+    "zip": "77019",
+    "assessedValue": 376000,
+    "sqft": 1760,
+    "yearBuilt": 1993,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "0560220000036",
+    "address": "2008 West Gray St, Houston, TX 77019",
+    "zip": "77019",
+    "assessedValue": 499000,
+    "sqft": 2290,
+    "yearBuilt": 2014,
+    "bedrooms": 5,
+    "bathrooms": 4
+  },
+  {
+    "parcelId": "0560220000037",
+    "address": "3215 Locke Ln, Houston, TX 77019",
+    "zip": "77019",
+    "assessedValue": 445000,
+    "sqft": 2100,
+    "yearBuilt": 2008,
+    "bedrooms": 4,
+    "bathrooms": 3
+  }
+]

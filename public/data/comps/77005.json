@@ -1,0 +1,72 @@
+[
+  {
+    "parcelId": "0660740000013",
+    "address": "123 Oak St, Houston, TX 77005",
+    "zip": "77005",
+    "assessedValue": 342000,
+    "sqft": 1850,
+    "yearBuilt": 1998,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "0660740000014",
+    "address": "125 Oak St, Houston, TX 77005",
+    "zip": "77005",
+    "assessedValue": 358000,
+    "sqft": 1910,
+    "yearBuilt": 2001,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "0660740000015",
+    "address": "127 Oak St, Houston, TX 77005",
+    "zip": "77005",
+    "assessedValue": 389000,
+    "sqft": 2040,
+    "yearBuilt": 2005,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+  {
+    "parcelId": "0660740000016",
+    "address": "200 Elm Ave, Houston, TX 77005",
+    "zip": "77005",
+    "assessedValue": 412000,
+    "sqft": 2150,
+    "yearBuilt": 2010,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+  {
+    "parcelId": "0660740000017",
+    "address": "204 Elm Ave, Houston, TX 77005",
+    "zip": "77005",
+    "assessedValue": 325000,
+    "sqft": 1780,
+    "yearBuilt": 1995,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "0660740000018",
+    "address": "208 Elm Ave, Houston, TX 77005",
+    "zip": "77005",
+    "assessedValue": 371000,
+    "sqft": 1950,
+    "yearBuilt": 2003,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "0660740000019",
+    "address": "212 Elm Ave, Houston, TX 77005",
+    "zip": "77005",
+    "assessedValue": 398000,
+    "sqft": 2100,
+    "yearBuilt": 2008,
+    "bedrooms": 4,
+    "bathrooms": 3
+  }
+]

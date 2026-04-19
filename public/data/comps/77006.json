@@ -1,0 +1,72 @@
+[
+  {
+    "parcelId": "0220110000021",
+    "address": "1402 Westheimer Rd, Houston, TX 77006",
+    "zip": "77006",
+    "assessedValue": 385000,
+    "sqft": 1820,
+    "yearBuilt": 2000,
+    "bedrooms": 3,
+    "bathrooms": 2.5
+  },
+  {
+    "parcelId": "0220110000022",
+    "address": "1408 Westheimer Rd, Houston, TX 77006",
+    "zip": "77006",
+    "assessedValue": 410000,
+    "sqft": 1960,
+    "yearBuilt": 2004,
+    "bedrooms": 3,
+    "bathrooms": 2.5
+  },
+  {
+    "parcelId": "0220110000023",
+    "address": "1511 Hawthorne St, Houston, TX 77006",
+    "zip": "77006",
+    "assessedValue": 368000,
+    "sqft": 1750,
+    "yearBuilt": 1996,
+    "bedrooms": 3,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "0220110000024",
+    "address": "1609 Hawthorne St, Houston, TX 77006",
+    "zip": "77006",
+    "assessedValue": 432000,
+    "sqft": 2080,
+    "yearBuilt": 2009,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+  {
+    "parcelId": "0220110000025",
+    "address": "2004 Montrose Blvd, Houston, TX 77006",
+    "zip": "77006",
+    "assessedValue": 455000,
+    "sqft": 2180,
+    "yearBuilt": 2012,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+  {
+    "parcelId": "0220110000026",
+    "address": "2104 Montrose Blvd, Houston, TX 77006",
+    "zip": "77006",
+    "assessedValue": 342000,
+    "sqft": 1680,
+    "yearBuilt": 1990,
+    "bedrooms": 2,
+    "bathrooms": 2
+  },
+  {
+    "parcelId": "0220110000027",
+    "address": "2210 Fairview St, Houston, TX 77006",
+    "zip": "77006",
+    "assessedValue": 398000,
+    "sqft": 1900,
+    "yearBuilt": 2002,
+    "bedrooms": 3,
+    "bathrooms": 2.5
+  }
+]

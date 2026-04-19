@@ -15,6 +15,14 @@ const eslintConfig = defineConfig([
       ...jsxA11y.configs.recommended.rules,
     },
   },
+  // shadcn-generated UI primitives are thin wrappers; a11y is enforced at
+  // the consumption site (the wrapper forwards props like htmlFor).
+  {
+    files: ['src/components/ui/**/*.{ts,tsx}'],
+    rules: {
+      'jsx-a11y/label-has-associated-control': 'off',
+    },
+  },
   prettier,
   // Override default ignores of eslint-config-next.
   globalIgnores([
