@@ -32,6 +32,11 @@ const eslintConfig = defineConfig([
     'build/**',
     'coverage/**',
     'next-env.d.ts',
+    // Serwist-generated service worker artifacts.
+    'public/sw.js',
+    'public/swe-worker-*.js',
+    'public/workbox-*.js',
+    'public/fallback-*',
   ]),
 ])
 
