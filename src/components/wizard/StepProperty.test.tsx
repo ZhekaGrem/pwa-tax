@@ -1,8 +1,17 @@
-import { describe, it, expect, beforeEach } from 'vitest'
+import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { StepProperty } from './StepProperty'
 import { useAppealStore } from '@/store/useAppealStore'
+
+vi.mock('@/hooks/useAuth', () => ({
+  useAuth: () => ({
+    user: null,
+    loading: false,
+    signInWithGoogle: vi.fn(),
+    signOut: vi.fn(),
+  }),
+}))
 
 beforeEach(() => useAppealStore.getState().reset())
 

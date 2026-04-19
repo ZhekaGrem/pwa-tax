@@ -6,15 +6,35 @@ import { useAppealStore } from '@/store/useAppealStore'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
+import { useAuth } from '@/hooks/useAuth'
+import { createDraftAppeal } from '@/services/storage'
 
 export function StepProperty() {
   const { property, patchProperty, nextStep } = useAppealStore()
+  const { user } = useAuth()
   const form = useForm<Property>({
     resolver: zodResolver(PropertySchema),
     defaultValues: { county: 'Harris', ...property },
   })
-  const onSubmit = (v: Property) => {
+  const onSubmit = async (v: Property) => {
     patchProperty(v)
+    const state = useAppealStore.getState()
+    if (user && !state.id) {
+      try {
+        const id = await createDraftAppeal(user.uid, {
+          year: new Date().getFullYear(),
+          property: v,
+          assessment: state.assessment.taxRate
+            ? { currentAssessedValue: 0, marketValue: 0, taxRate: state.assessment.taxRate }
+            : { currentAssessedValue: 0, marketValue: 0, taxRate: 0.0231 },
+          selectedComps: [],
+        } as never)
+        useAppealStore.getState().setId(id)
+      } catch (e) {
+        console.error('Failed to create draft', e)
+        // Continue anyway — wizard still usable in offline mode (Firestore persistentLocalCache will retry)
+      }
+    }
     nextStep()
   }
 
