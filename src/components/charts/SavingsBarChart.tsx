@@ -19,7 +19,7 @@ export function SavingsBarChart({
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis tickFormatter={(v) => `$${v.toLocaleString()}`} />
-          <Tooltip formatter={(v: number) => `$${v.toLocaleString()}`} />
+          <Tooltip formatter={(v) => `$${Number(v).toLocaleString('en-US')}`} />
           <Bar dataKey="usd" fill="#16a34a" />
         </BarChart>
       </ResponsiveContainer>

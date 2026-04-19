@@ -19,7 +19,7 @@ export function ComparisonChart({
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis tickFormatter={(v) => `$${v}/sqft`} />
-          <Tooltip formatter={(v: number) => `$${v}/sqft`} />
+          <Tooltip formatter={(v) => `$${Number(v)}/sqft`} />
           <Bar dataKey="usd" fill="#2563eb" />
         </BarChart>
       </ResponsiveContainer>
