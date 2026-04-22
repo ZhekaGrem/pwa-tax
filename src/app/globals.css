@@ -7,9 +7,21 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-sans);
-  --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-sans);
+
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-hairline: var(--hairline);
+  --color-haze: var(--haze);
+  --color-stone: var(--stone);
+  --color-signal: var(--signal);
+  --color-signal-foreground: var(--signal-foreground);
+  --color-neon: var(--neon);
+
+  --font-sans: var(--font-display);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+  --font-heading: var(--font-display);
+
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -49,72 +61,87 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  /* Swiss Financial tokens */
+  --paper: oklch(0.995 0 0);
+  --ink: oklch(0.12 0.01 260);
+  --hairline: oklch(0.88 0.005 260);
+  --haze: oklch(0.965 0.003 260);
+  --stone: oklch(0.55 0.01 260);
+  --signal: oklch(0.48 0.26 263);         /* electric blue */
+  --signal-foreground: oklch(1 0 0);
+  --neon: oklch(0.88 0.24 150);           /* neon green */
+
+  /* shadcn/base-ui aliases mapped to Swiss tokens */
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--paper);
+  --card-foreground: var(--ink);
+  --popover: var(--paper);
+  --popover-foreground: var(--ink);
+  --primary: var(--ink);
+  --primary-foreground: var(--paper);
+  --secondary: var(--haze);
+  --secondary-foreground: var(--ink);
+  --muted: var(--haze);
+  --muted-foreground: var(--stone);
+  --accent: var(--signal);
+  --accent-foreground: var(--signal-foreground);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
+  --border: var(--hairline);
+  --input: var(--hairline);
+  --ring: var(--signal);
+  --chart-1: var(--signal);
+  --chart-2: var(--neon);
+  --chart-3: oklch(0.55 0.01 260);
+  --chart-4: oklch(0.35 0.01 260);
+  --chart-5: oklch(0.18 0.01 260);
   --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar: var(--paper);
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--ink);
+  --sidebar-primary-foreground: var(--paper);
+  --sidebar-accent: var(--haze);
+  --sidebar-accent-foreground: var(--ink);
+  --sidebar-border: var(--hairline);
+  --sidebar-ring: var(--signal);
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
+  --paper: oklch(0.12 0.008 260);
+  --ink: oklch(0.985 0 0);
+  --hairline: oklch(1 0 0 / 12%);
+  --haze: oklch(0.18 0.01 260);
+  --stone: oklch(0.68 0.01 260);
+  --signal: oklch(0.62 0.24 263);
+  --signal-foreground: oklch(0.08 0 0);
+  --neon: oklch(0.88 0.24 150);
+
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: oklch(0.16 0.01 260);
+  --card-foreground: var(--ink);
+  --popover: var(--card);
+  --popover-foreground: var(--ink);
+  --primary: var(--ink);
+  --primary-foreground: var(--paper);
+  --secondary: var(--haze);
+  --secondary-foreground: var(--ink);
+  --muted: var(--haze);
+  --muted-foreground: var(--stone);
+  --accent: var(--signal);
+  --accent-foreground: var(--signal-foreground);
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
+  --border: var(--hairline);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --ring: var(--signal);
+  --sidebar: var(--card);
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--signal);
+  --sidebar-primary-foreground: var(--signal-foreground);
+  --sidebar-accent: var(--haze);
+  --sidebar-accent-foreground: var(--ink);
+  --sidebar-border: var(--hairline);
+  --sidebar-ring: var(--signal);
 }
 
 @layer base {
@@ -123,8 +150,163 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "ss01", "cv11", "tnum";
   }
   html {
     @apply font-sans;
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--signal);
+    color: var(--signal-foreground);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display), "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+    font-feature-settings: "ss01", "cv11";
+  }
+  .font-mono {
+    font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+  .tracking-ultra-tight {
+    letter-spacing: -0.055em;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .swiss-grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: clamp(0.75rem, 2vw, 1.25rem);
+  }
+  .hairline-grid {
+    background-image:
+      linear-gradient(to right, var(--hairline) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--hairline) 1px, transparent 1px);
+    background-size: 80px 80px;
+  }
+  .noise {
+    position: relative;
+    isolation: isolate;
+  }
+  .noise::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.06;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  .glass {
+    background: color-mix(in oklch, var(--paper) 55%, transparent);
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+    backdrop-filter: blur(18px) saturate(140%);
+    border: 1px solid color-mix(in oklch, var(--ink) 10%, transparent);
+    box-shadow:
+      0 1px 0 color-mix(in oklch, var(--paper) 90%, transparent) inset,
+      0 30px 60px -30px color-mix(in oklch, var(--ink) 25%, transparent);
+  }
+  .neon-glow {
+    text-shadow:
+      0 0 0.15em color-mix(in oklch, var(--neon) 70%, transparent),
+      0 0 0.6em color-mix(in oklch, var(--neon) 45%, transparent);
+  }
+  .digit-flip {
+    display: inline-block;
+    transform-origin: 50% 100%;
+    animation: digit-pop 360ms cubic-bezier(0.2, 0.9, 0.2, 1);
+  }
+  .marquee-track {
+    animation: marquee 28s linear infinite;
+    will-change: transform;
+  }
+  .marquee-track:hover {
+    animation-play-state: paused;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-track,
+    .digit-flip {
+      animation: none !important;
+    }
+  }
+
+  /* Browser-level deferred rendering for off-screen sections. */
+  .section-defer {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 900px;
+  }
+  .section-defer-sm {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 420px;
+  }
+
+  /* Anchor scroll targets shouldn't slide under the sticky spec bar. */
+  [id] {
+    scroll-margin-top: clamp(72px, 10vh, 120px);
+  }
+
+  /* Hero map: saturation stripped, paper-multiplied so it reads as a
+     blueprint tint rather than a photograph. No coloured glows. */
+  .hero-map {
+    opacity: 0.22;
+    filter: grayscale(1) contrast(1.15);
+    mix-blend-mode: multiply;
+  }
+
+  /* Staggered entrance for hero blocks — one orchestrated reveal. */
+  .hero-in {
+    opacity: 0;
+    transform: translateY(12px);
+    animation: hero-rise 720ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  }
+  .hero-in-1 { animation-delay: 80ms; }
+  .hero-in-2 { animation-delay: 180ms; }
+  .hero-in-3 { animation-delay: 320ms; }
+  .hero-in-4 { animation-delay: 460ms; }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-in,
+    .hero-in-1,
+    .hero-in-2,
+    .hero-in-3,
+    .hero-in-4 {
+      animation: none !important;
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@keyframes hero-rise {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Keyframes live at top-level — declaring them inside @layer utilities
+   causes some browsers to scope the animation name so .marquee-track
+   can't resolve it, which rendered the stat strip static in production. */
+@keyframes marquee {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+@keyframes digit-pop {
+  0% {
+    opacity: 0;
+    transform: translateY(20%) scale(0.96);
+    filter: blur(6px);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0);
+  }
+  100% {
+    transform: translateY(0) scale(1);
   }
 }
