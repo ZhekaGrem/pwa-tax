@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci
+      - run: npm install --no-audit --no-fund
       - run: npm run typecheck
       - run: npm run lint
       - run: npm run test -- --coverage --project=dom --project=node
@@ -38,5 +38,5 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
-      - run: npm ci
+      - run: npm install --no-audit --no-fund
       - run: npm run test:rules

@@ -12,5 +12,5 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci
+      - run: npm install --no-audit --no-fund
       - run: npx --yes @lhci/cli@latest autorun --collect.url=${{ github.event.deployment_status.target_url }}
